@@ -49,3 +49,11 @@ WebAuthn (Web Authentication API) ist ein moderner Standard für:
 - **Sicherheitsexperten**: Die veraltete Praktiken bekämpfen
 - **Entscheidungsträger**: Die über Sicherheitsinvestitionen entscheiden
 - **Technologie-Enthusiasten**: Die sich für moderne Web-Standards interessieren
+
+## Wie man dieses Repository nutzt
+1. **In Projekten verlinken**: Fügen Sie eine Referenz zu diesem Repository in Ihrer README hinzu, um Ihr Engagement für moderne Authentifizierung zu zeigen
+2. **Badge in der Dokumentation**: Verwenden Sie es als Badge oder Statement in der Sicherheitsdokumentation
+3. **In sozialen Medien teilen**: Verbreiten Sie das Bewusstsein für die WebAuthn-Adoption
+4. **Diskussionen starten**: Nutzen Sie es als Gesprächsöffner über Authentifizierungssicherheit
+5. **Interne Richtlinien**: Referenzieren Sie es in Unternehmens-Sicherheitsrichtlinien und Coding-Standards
+6. **Schulungsmaterial**: Verwenden Sie es als Motivation in Sicherheitsschulungen
