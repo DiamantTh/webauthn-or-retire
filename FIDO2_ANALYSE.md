@@ -58,9 +58,9 @@ FIDO2 ist ein offener Authentifizierungsstandard, der von der FIDO Alliance entw
 ### 3. Reduzierte Betriebskosten
 
 #### Weniger Support-Anfragen
-- Studien zeigen, dass 20-50% der Helpdesk-Tickets mit Passwort-Resets zusammenhängen
+- Studien zeigen, dass 20-50% der Helpdesk-Tickets mit Passwort-Resets zusammenhängen (Quelle: Gartner, Forrester)
 - FIDO2 eliminiert diese Tickets fast vollständig
-- **Kosteneinsparung**: Durchschnittlich $70 pro Passwort-Reset × Anzahl der Resets
+- **Kosteneinsparung**: Durchschnittlich $50-$100 pro Passwort-Reset × Anzahl der Resets (variiert je nach Branche)
 
 #### Keine Passwort-Speicherinfrastruktur
 - Keine komplexen Passwort-Hashing-Algorithmen erforderlich
@@ -106,7 +106,7 @@ FIDO2 ist ein offener Authentifizierungsstandard, der von der FIDO Alliance entw
 
 #### Browser-Support (historisch)
 - **Problem**: Ältere Browser (IE11, alte Android-Browser) unterstützen WebAuthn nicht
-- **Realität 2025**: Über 95% der aktiven Browser unterstützen WebAuthn vollständig
+- **Realität 2025**: Die überwiegende Mehrheit der aktiven Browser unterstützen WebAuthn vollständig (siehe [caniuse.com/webauthn](https://caniuse.com/webauthn))
 - **Mitigation**: Progressive Enhancement und Fallback-Optionen
 
 #### Geräte-Anforderungen
@@ -181,10 +181,10 @@ FIDO2 ist ein offener Authentifizierungsstandard, der von der FIDO Alliance entw
 
 #### Die Bedrohungslandschaft 2025
 - **Realität**: Datenschutzverletzungen sind allgegenwärtig und extrem kostspielig
-- **Beispiele**: 
+- **Historische Beispiele** (zeigen die Kontinuität des Problems): 
   - LastPass Breach (2022): Millionen von Password Vaults kompromittiert
   - Uber Breach (2022): Kompromittierung durch gestohlene Credentials
-  - Zahlreiche weitere High-Profile-Breaches aufgrund von Passwort-basierten Schwachstellen
+  - Diese Muster setzen sich kontinuierlich fort mit zahlreichen weiteren High-Profile-Breaches aufgrund von Passwort-basierten Schwachstellen
 
 #### Haftung und Verantwortung
 - Entwickler, die bekannte Sicherheitsprobleme ignorieren, machen sich potenziell haftbar
@@ -304,10 +304,10 @@ Der provokante Titel "webauthn-or-retire" und die Aussage, dass Entwickler "in R
 ### Erfolgsgeschichten
 
 #### Große Plattformen, die migriert haben
-- **Google**: Über 150 Millionen Benutzer nutzen Security Keys
+- **Google**: Über 150 Millionen Benutzer nutzen Security Keys (Stand: öffentliche Berichte 2023)
 - **Microsoft**: Azure AD unterstützt FIDO2 nativ, massive Enterprise-Adoption
 - **GitHub**: Passkeys für alle Benutzer verfügbar, deutliche Sicherheitsverbesserung
-- **Shopify**: Reduzierte Account-Takeover-Angriffe um 99% nach FIDO2-Einführung
+- **Shopify und andere E-Commerce-Plattformen**: Dramatische Reduzierung von Account-Takeover-Angriffen nach FIDO2-Einführung
 
 #### Was diese Unternehmen gemeinsam haben
 - Investition in Sicherheit
@@ -373,7 +373,7 @@ FIDO2 bietet:
 
 ### Die Contra-Argumente sind überwiegend gelöst
 
-- ✅ **Browser-Support**: 95%+ in 2025
+- ✅ **Browser-Support**: Fast alle modernen Browser unterstützen WebAuthn vollständig
 - ✅ **Geräte-Kompatibilität**: Moderne Geräte haben integrierte Unterstützung
 - ✅ **Lernkurve**: Gute Bibliotheken und Dokumentation verfügbar
 - ✅ **Cross-Device**: Passkeys lösen das Synchronisationsproblem
